@@ -18,12 +18,21 @@
 <body>
     <div class="container">
         <img src="./Images/images.jpg">
+        <h1>Hungry ??</h1>
+        <h3>Order Now !!</h3>
         <input type="text" id="input-field" placeholder="Food">
         <button id="add-button">Add to cart</button>
         <ul id="shopping-list">
         </ul>
+        <button class="order" onclick="order()">Order</button>
+        <p id="ordered"></p>
     </div>
 
     <script src="./script.js" type="module"></script>
+    <script>
+        function order(){ 
+            document.getElementById("ordered").innerHTML = "Order on the way !!"
+    }
+    </script>
 </body>
 </html>

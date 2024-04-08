@@ -37,7 +37,7 @@ input {
 
 button {
     color: #FDFDFD;
-    background-color: #599137;
+    background-color: #8b68b3;
     border: 0;
     padding: 15px;
     border-radius: 8px;
@@ -47,7 +47,7 @@ button {
 }
 
 button:hover {
-    background-color: #76b1f5;
+    background-color: #599137;
     cursor: pointer;
     transition: all ease-in-out 0.2s;
 }
@@ -73,7 +73,7 @@ ul li {
 }
 
 ul li:hover {
-    background-color: #8b68b3;
+    background-color: #2d546b;
     cursor: pointer;
 }
 
@@ -81,4 +81,25 @@ ul li:hover {
     color: aliceblue;
     font-weight: 600;
     justify-content: center;
+}
+
+h1{
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 5px;
+}
+h3{
+    text-align: center;
+    color: aliceblue;
+}
+
+.order{
+    background-color: #8b68b3;
+}
+
+p{
+    color: aliceblue;
+    font-weight: 700;
+    font-size: larger;
+    text-align: center;
 }
